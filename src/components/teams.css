@@ -1,0 +1,143 @@
+ h1 {
+  margin-left: 120px;
+  font-size: 700%;
+  /* background-color: blue; */
+}
+
+
+#message{
+  margin-left: 120px;
+  font-size: 200%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid yellow;
+}
+
+/* .square {
+  height:100px;
+  width:100%;
+  background-color: teal;
+}
+
+.square1 {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+} */
+
+.seed {
+  display:flex;
+}
+
+.seed img {
+  margin-left: 120px;
+  margin-top:50px;
+  width:600px;
+  height: 350px;
+}
+
+.Review img {
+  margin-left: 120px;
+  margin-top:50px;
+  width:600px;
+  height: 350px;
+}
+
+#if {
+  margin-left: 140px;
+  margin-top: 100px;
+}
+
+#message1 {
+  margin-left: 140px;
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sector1 {
+  margin-left:120px;
+  margin-bottom: 20px;
+}
+
+section a {
+  padding-right: 60px;
+  
+}
+
+h4{
+
+  padding-right: 150px;
+
+}
+
+.Review {
+  display: flex;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 100px;
+}
+
+#reviews {
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+big {
+  font-style: bold;
+  margin-left: 20px;
+}
+
+small{
+  margin-left: 20px;
+}
+
+.Reach {
+  margin-left: 120px;
+  display: flex;
+  padding-bottom: 100px;
+  border-bottom: 2px solid yellow;
+  
+}
+
+.Reach :first-child  {
+  margin-right: 180px;
+}
+
+.Reach :last-child span {
+  font-size: 120%;
+  font-weight: bolder;
+  color: gray;
+}
+
+#all {
+  margin-left: 120px;
+  background: none;
+  width:40px;
+  color: white;
+  border-radius: 1rem;;
+
+}
+
+#all:hover{
+  transform: scale(1.3);
+  transition: all 0.5s;
+  background-color: white;
+  color: black;
+}
+
+.teamsContainer{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.teamsContainer div {
+  margin-top: 40px;
+  margin-left: 20px;
+}

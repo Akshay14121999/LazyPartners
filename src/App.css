@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.upperContainer{
+  background-color:black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Big-Container{
+
+  height:500px;
+  width: 100%;
+  margin-left:500px;
+  margin-top: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ input {
+  padding: 10px;
+  height:20px;
+  width:400px;
+  overflow: hidden;
+  border:none;
+  background: none;
+  border-bottom: 3px green solid;
+  color: greenyellow;
+  outline:none;
+  font-size: medium;
+  margin-bottom: 20px;
 }
+
+  #myButton {
+  width:180px;
+  height:40px;
+  margin-left:110px;
+  border: 1px white solid;
+  outline:none;
+  background: none;
+  color:white;
+  font-family:  Helvetica, Arial,sans-serif;
+  
+}
+
+#myButton:hover{
+  transform: scale(1.2);
+  transition: all 0.3s;
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  display:flex;
+  margin-left: 120px;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 100px;
+}
+
+h4 {
+  margin-left:120;
+  padding-right: 300px;
+  margin-bottom: 30px;
+
+}
+
+.subscribe {
+  margin-left:300px
+}
+
+.Copyright {
+  margin-left: 120px;
+}
+
+#myButton1{
+  width:180px;
+  height:40px;
+  border: 1px white solid;
+  outline:none;
+  background: none;
+  color:white;
+  font-family:  Helvetica, Arial,sans-serif;
+  margin-bottom: 35px;
+  
+}
+#myButton1:hover{
+  transform: scale(1.2);
+  transition: all 0.3s;
+  background-color: white;
+  color: black;
+}
+
+#email{
+  margin-right: 200px;
+  margin-left: 10px;
+}
+
+#emaila{
+  margin-right: 70px;
+  margin-left: 0px;
+}
+
+#image {
+  width:500px;
+  height:300px;
+  margin-top: 25px;
+}
+
+#sp{
+  margin-left: 120px;
+  font-size: 400%;
+}
+
+#press{
+
+  display: flex;
+  justify-content: space-between;
+  height:100%;
+  width:650px;
+  /* background-color: red; */
+
+}
+#insights{
+ 
+  margin-left: 75px;
+  height:100%;
+  width:430px;
+  /* background-color:blue; */
+
+}
+
+#newsContainer {
+  display:flex;
+  margin-left: 120px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid yellow;
+  
+  
+}
+
+.newsCard {
+  height:250px;
+  width:250px;
+  background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  margin-top: 30px;
+  padding: 20px;
+
+}
+
+#ph3 {
+  margin-left: 120px;
+}
+.card-content {
+  height: 200px;
+  width: 200px;
+  /* background-color: grey; */
+  
+}
+
+.card-title {
+  height: 100px;
+  width:200px;
+  /* background-color: white;; */
+  font-weight: bold;
+}
+
+.insights-card{
+  height:200px;
+  width: 100%;
+  background-color: red;
+}
+
+.insights-content{
+  height: 200px;
+}
+
+.insights-title {
+  height: 100px;
+  width:200px;
+  /* background-color: white;; */
+  font-weight: bold;
+}
+
